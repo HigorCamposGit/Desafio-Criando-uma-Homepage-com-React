@@ -1,11 +1,13 @@
-import { login } from "./login";
+import { login } from './login';
 
 describe('login', () => {
+  it('deve exibir um alert com a mensagem de boas-vindas', () => {
     const mockAlert = jest.fn();
     window.alert = mockAlert;
 
-    it('Deve exibir um alert com boas vindas', () => {
-        login();
-        expect(mockAlert).toHaveBeenCalledWith('Bem vindo(a)!');
-    });
+    login();
+
+    // O texto aqui dentro precisa ser exatamente igual ao do login.tsx
+    expect(mockAlert).toHaveBeenCalledWith('Bem-vindo(a), Higor de Campos!');
+  });
 });
