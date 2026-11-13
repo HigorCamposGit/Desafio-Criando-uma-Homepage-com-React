@@ -43,8 +43,18 @@ unitários com `Jest` em uma aplicação `React` com `TypeScript`.
    ```bash
    git clone [https://github.com/HigorCamposGit/Desafio-Criando-uma-Homepage-com-React.git](https://github.com/HigorCamposGit/Desafio-Criando-uma-Homepage-com-React.git)
 
-   ---
-   
+
+
+----
+
+## 🙏 Créditos e Referências
+
+* **Instrutora:** [Nathally Souza (@nathsouzadev)](https://github.com/nathsouzadev)
+* **Repositório Base:** [digitalinnovationone/desafio02-ts](https://github.com/digitalinnovationone/desafio02-ts)
+
+
+--- 
+
 ## 🤝 Conecte-se Comigo
 
 <p align="center">
